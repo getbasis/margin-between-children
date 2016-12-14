@@ -41,4 +41,8 @@ _margin-between-children(coefficient = 1) {
     _margin-top(_h6-margin-top * coefficient);
     _margin-bottom(_h6-margin-bottom * coefficient);
   }
+
+  > :first-child {
+    margin-top: 0;
+  }
 }
