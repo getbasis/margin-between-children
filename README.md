@@ -15,9 +15,6 @@ $ yarn add getbasis-margin-between-children
 
 ### Stylus
 ```
-// The bottom margin of HTML Elements is 0.
-_base-margin-bottom: 0;
-
 @import 'node_modules/getbasis/src/css/basis';
 @import 'node_modules/getbasis-margin-between-children/src/css/core/mixin/margin-between-children';
 
